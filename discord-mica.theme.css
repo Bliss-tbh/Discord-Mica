@@ -12,7 +12,7 @@
 
  :root {
   /*Dark mode*/
-  --dark-bg: transparent; /*rgba(240,185,190,0.113); to achieve screenshot looking*/
+  --dark-bg: (240,185,190,0.113);
   --dark-flyout: rgba(30,30,30);
   --dark-accent: rgb(76, 194, 255);
   --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
@@ -39,3 +39,4 @@
   --custom-app-top-bar-height: calc(24px + var(--space-sm)); /* Set to 0 if you don't want to use Discord title-bar */
   --title-bar-icon: flex; /* Set to none to remove icons */
   }
+
